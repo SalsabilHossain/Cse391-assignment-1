@@ -1,0 +1,67 @@
+body{
+    background-color: #F1D4D4;
+}
+
+.container1{
+    display: flex;
+    margin: 20px;
+}
+
+.book{
+    flex: 6;
+}
+
+.bookimg{
+    flex: 2;
+}
+
+div{
+    margin: 10px;
+}
+
+.container2{
+    display: flex;
+    margin: 20px;
+}
+
+.paint{
+    flex: 6;
+}
+
+.paintimg{
+    flex: 2;
+}
+
+h1{
+    color: #484C7F;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.navbar a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 30px;
+
+    
+    }
+.navbar a:hover {
+ color: black;
+ 
+}
+
+footer{
+   
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 10%;
+    margin-top: 40px;
+}

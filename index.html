@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 1</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body onload="modified()">
+    
+      <div class="navbar">
+        <a class="active" href="#info"><i class="fa fa-fw fa-home"></i> Personal Info</a>
+        <a href="#home"><i class="fa fa-fw fa-search"></i> Home Town</a>
+        <a href="./hobby.html"><i class="fa fa-fw fa-envelope"></i> Hobbies</a>
+        <a href="https://www.bracu.ac.bd"><i class="fa fa-fw fa-user"></i> Bracu</a>
+        <a href="https://piazza.com/class/kg4k981ic375wl"><i class="fa fa-fw fa-user"></i> Piazza</a><br>
+      </div>
+    
+
+      <a id="info"></a>
+    <div>
+      <div id="head">
+        <h1>Salsabil Hossain Alavi</h1>
+       
+       
+      </div>
+
+      <div id="me">
+        <img src="me.png" alt="mine"> 
+      </div>
+    </div>
+    
+     
+       
+    
+    
+    <div class="contain1">
+      <h2>Personal Info</h2>
+      Eager to learn and contribute to team success with hard work and dedication. I hope to be working in a top tech company of the world in 5 years time. I love travelling and apart from that I have other  <a href="./hobby.html">hobbies</a>. Below is the list of 3 places I have visited and the highlights of each place.
+      <table>
+          <tr>
+            <th>Place</th>
+            <th>Highlights</th>
+          </tr>
+          <tr>
+            <td>India</td>
+            <td>The rich culture.</td>
+            
+          </tr>
+          <tr>
+            <td>Thailand</td>
+            <td>The city lights.</td>
+            
+          </tr>
+          <tr>
+            <td>Sajek</td>
+            <td>The magnificant night sky.</td>
+            
+          </tr>
+          
+        </table>
+      <h3 style="margin-top: 10px;">Favourite Quotes</h3>
+      <p>"What is this life if, full of care,
+          We have no time to stand and stare."<br>"Stay hungry, stay foolish." 
+      </p>
+  </div>
+    
+  </div>
+  
+
+    </div>
+
+
+
+    <a id="home"></a>
+    <div id="dh">
+      <img src="d.png" alt="dhaka"> 
+    </div>
+    <div class="contain2">
+        
+      <h2>Home Town</h2>
+       I was born and raised in Dhaka, Bangladesh. Both my parents were also born in Dhaka city. I live in Dhaka with my parents and my younger sister. Dhaka is a lively city. I like Dhaka because of all the facilities we have access to such as jobs and universities.
+              
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+    crossorigin="anonymous"></script>
+    
+    <script>
+        function modified() {
+        var x = document.lastModified;
+        document.getElementById("date").innerHTML = "DATE MODIFIED: "+x;
+        }
+    </script>
+</body>
+<footer>
+    
+    <p style="color: black;" id="date"></p>
+</footer>
+</html>

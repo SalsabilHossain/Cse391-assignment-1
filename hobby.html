@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles1.css" rel="stylesheet">
+    <title>Hobbies</title>
+</head>
+<body onload="modified()">
+    <div class="navbar">
+        <a class="active" href="./index.html"><i class="fa fa-fw fa-home"></i> Personal Info</a>
+        <a href="./index.html"><i class="fa fa-fw fa-search"></i> Home Town</a>
+        <a href="./hobby.html"><i class="fa fa-fw fa-envelope"></i> Hobbies</a>
+        <a href="https://www.bracu.ac.bd"><i class="fa fa-fw fa-user"></i> Bracu</a>
+        <a href="https://piazza.com/class/kg4k981ic375wl"><i class="fa fa-fw fa-user"></i> Piazza</a><br>
+      </div>
+    <div class="container1">
+        <div class="book">
+            <h1>Reading</h1>
+            I love reading books. My favourite genre is mystery or thriller. I always get intrigued reading mystery or thriller. My favourite mystery book is "The Vinci code"
+            by Dan Brown. I particularly love this one because it has all the elements of history, mystery and also science. It is an amazing read which kept me hooked on for hours.
+
+        </div>
+        <div class="bookimg">
+            <img src="rsz_b.jpg" alt="book"> 
+        </div>
+
+    </div>
+    <div class="container2">
+        <div class="paintimg">
+            <img src="rsz_p.jpg" alt="paint"> 
+
+        </div>
+        <div class="paint">
+            <h1>Painting</h1>
+            As a child I used to love playing with colors. Seeing my passion for arts and colors, my parents decided to get me into a art academy. I learned many techniques of art
+            from there and I fell in love with art even more. Now, whenever I find leisure time I spend my time doing painting.
+
+        </div>
+
+    </div>
+    
+</body>
+<script>
+    function modified() {
+    var x = document.lastModified;
+    document.getElementById("date").innerHTML = "DATE MODIFIED: "+x;
+    }
+</script>
+<footer>
+
+    <p style="color: black;" id="date"></p>
+    </footer>
+</body>
+
+</html>
